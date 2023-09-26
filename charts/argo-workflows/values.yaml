@@ -1,0 +1,8 @@
+workflow:
+  serviceAccount:
+    create: false
+    labels: {}
+    annotations: {}
+    name: "argo-serviceaccount"
+  rbac:
+    create: false
